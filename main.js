@@ -1,12 +1,13 @@
 /* 
  The solution for this challenge requires JavaScript DOM manipulation. 
  So we need;
-    1- to target second <article> element in the DOM, 
-    2- create a new <div> element, 
-    3- assign to this <div> the same class like the one in the siblings,
-    4- target the last <div> element in the second <article> and set its src attribute to www.google.com,
-    5- and than append new <div> element to its parent.
-    6- Lastly, we need to initialize this DOM event as a function and load with the onload of the window.  */
+    1- Select the necessary DOM elements (<bod> <main>);
+    2- to target second <article> element in the DOM, 
+    3- create a new <div> element, 
+    4- assign to this <div> the same class like the one in the siblings,
+    5- append new <div> element to its parent,
+    6- and than target the last <div> element in the second <article> and set its href attribute to www.google.com,
+    7- Lastly, we need to initialize this DOM event as a function and load with the onload of the window.  */
 
 
 
