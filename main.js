@@ -12,22 +12,15 @@
 
 
 function addDiv() {
-    let body = document.querySelector("body");
-    let main = document.querySelector("main");
-    let articleElement = document.querySelector("main").lastElementChild;
+    let articleElement = document.querySelector(".square-container");
     let newDiv = document.createElement("div");
     newDiv.className = "square";
     articleElement.appendChild(newDiv);
-    main.appendChild(articleElement);
-    body.appendChild(main);
-
-    let lastDiv = document.querySelector(".square-container").lastElementChild;
-    lastDiv.setAttribute("href", "https://www.google.com/");
-    // let aTag = document.createElement("a");
-    // aTag.setAttribute("href", "https://www.google.com/");
-    // aTag.className = "square";
-    // lastDiv.appendChild(aTag);
-    console.log(lastDiv);
+ 
+    newDiv.addEventListener('click', function (){
+        window.open("https://www.google.com/");
+    });
 };
+
 
 window.onload = addDiv;
