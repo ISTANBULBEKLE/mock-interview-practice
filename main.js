@@ -1,7 +1,7 @@
 /* 
  The solution for this challenge requires JavaScript DOM manipulation. 
  So we need;
-    1- Select the necessary DOM elements (<bod> <main>);
+    1- Select the necessary DOM elements (<body> <main>);
     2- to target second <article> element in the DOM, 
     3- create a new <div> element, 
     4- assign to this <div> the same class like the one in the siblings,
